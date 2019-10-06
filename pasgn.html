@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head >
+
+  <title>pgenblake pierce </title>
+</head>
+
+<body style="background-color: dodgerblue; ">
+  <h1>bassword generator   blake w pierce</h1>
+ 
+ <b>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <script>
+
+   
+    
+    var characterlist="abcdefghijklmnopqrstuvwxyz11234456789!@#&ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    var temp=''
+    
+    function genpass(passlength){
+    temp=''
+    for (i=0;i<passlength;i++)
+    temp+=characterlist.charAt(Math.floor(Math.random()*characterlist.length))
+    return temp
+    style="text-align: center" }
+    
+    function populateform(enterlength){
+    document.passgenerate.output.value=genpass(enterlength)
+   
+  
+  }
+    </script>
+    
+    <form name="passgenerate">
+    <input type="text" size=24px name="output"text-align="center" >
+    
+    
+    <input  style="text-align: center"  type="button" value="generate password" onClick="populateform(this.form.thelength.value) "> 
+
+</br>
+   
+
+
+<b style="text-align: center">password length:</b> <input type="text" name="thelength" 
+    
+
+
+
+size=3 value="8">
+    </form>
+    
+   
+</b>
+
+<p>
+<img src="lazy.jpg" width="680">
+</p>
+<br>
+</body>
+
+</html>
